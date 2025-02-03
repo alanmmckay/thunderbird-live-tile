@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "thunderbird_live_tile",
+  "version": "1.0",
+  "description": "Fetch unread email count and subjects.",
+  "applications": {
+    "gecko": {
+      "id": "live-tile@example.com"
+    }
+  },
+  "permissions": [
+    "accountsRead",
+    "messagesRead",
+    "nativeMessaging"
+  ],
+  "background": {
+    "page": "background.html"
+  }
+}

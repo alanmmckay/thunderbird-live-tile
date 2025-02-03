@@ -1,0 +1,7 @@
+{
+  "name": "thunderbird_live_tile",
+  "description": "Receives unread email data from Thunderbird",
+  "path": "<directory/to/native_host.py>",
+  "type": "stdio",
+  "allowed_extensions": ["live-tile@example.com"]
+}

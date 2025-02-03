@@ -1,0 +1,1 @@
+Linux: /home/<user>/.mozilla/native-messaging-hosts/
