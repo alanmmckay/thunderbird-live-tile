@@ -1,15 +1,14 @@
-#!/usr/bin/env python3
 import sys
 import json
 import os
 import struct
-
 #https://github.com/mdn/webextensions-examples/blob/main/native-messaging/app/ping_pong.py
 #https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_messaging
 #https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_manifests#manifest_location
 
-json_data_file = os.path.expanduser("~/thunderbird_unread.json")
-error_file = os.path.expanduser("~/thunderbird-live-tile-extension.error.log")
+
+json_data_file = os.path.expanduser(programLocation)
+error_file = os.path.expanduser(programLocation)
 
 def write_data(data):
     with open(json_data_file, "w", encoding="utf-8") as file:

@@ -3,7 +3,7 @@ async function print_val(val){
 }
 
 async function search_for_email( accountList ){
-    return accountList.filter(account => account.name == "alanmmckay@outlook.com")[0].id
+    return accountList.filter(account => account.name == emailAccountName)[0].id
 }
 
 async function search_for_inbox( accountId ){
