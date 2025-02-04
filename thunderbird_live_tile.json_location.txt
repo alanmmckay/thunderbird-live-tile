@@ -1,1 +1,3 @@
 Linux: /home/<user>/.mozilla/native-messaging-hosts/
+
+Windows: Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Mozilla\NativeMessagingHosts\thunderbird_live_tile -> path/to/thunderbird_live_tile.json

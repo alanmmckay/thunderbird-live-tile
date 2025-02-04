@@ -7,8 +7,8 @@ import struct
 #https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_manifests#manifest_location
 
 
-json_data_file = os.path.expanduser(programLocation)
-error_file = os.path.expanduser(programLocation)
+json_data_file = programLocation + "\\thunderbird_unread.json"
+error_file = programLocation + "\\thunderbird-live-tile-extension.error.log"
 
 def write_data(data):
     with open(json_data_file, "w", encoding="utf-8") as file:

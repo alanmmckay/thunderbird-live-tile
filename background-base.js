@@ -67,6 +67,6 @@ async function getUnreadWrapper(){
 document.addEventListener("DOMContentLoaded", () => {
   console.log("Extension Loaded");
   getUnread().then( sendToNativeApp );
-  setInterval(getUnreadWrapper, 3000);
+  setInterval(getUnreadWrapper, 25000);
 });
 
